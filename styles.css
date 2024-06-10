@@ -1,3 +1,9 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 320px;
+  margin: 16px 69px 16px 20px;
+}
+
 .icons-header {
   display: inline-block;
   width: 1em;
@@ -5,4 +11,19 @@
   stroke-width: 0;
   stroke: black;
   fill: black;
+}
+
+.hero-header {
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  margin-bottom: 24px;
+}
+
+.hero-image {
+  margin-bottom: 48px;
+}
+
+.hero-item {
 }
