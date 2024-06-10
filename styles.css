@@ -1,9 +1,11 @@
+/* Main styles */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 320px;
   margin: 16px 69px 16px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Header */
 .icons-header {
   display: inline-block;
   width: 1em;
@@ -12,11 +14,24 @@ body {
   stroke: black;
   fill: black;
 }
+/*
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-Vector-logo {
+  width: 0.9287109375em;
+} */
 
 .hero-header {
   margin-bottom: 20px;
 }
 
+/* Hero */
 .hero-text {
   margin-bottom: 24px;
 }
@@ -26,4 +41,45 @@ body {
 }
 
 .hero-item {
+}
+
+/* About Section */
+.about {
+  margin-bottom: 48px;
+}
+
+.about-text {
+  margin-bottom: 16px;
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 32px;
+}
+
+.about-list-title {
+  margin: 0;
+  padding: 0;
+}
+
+.about-list-text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+/*  How are we working section */
+.how-work {
+  margin-bottom: 48px;
+}
+
+/* Projects */
+.projects {
+  margin-bottom: 48px;
+}
+
+.slider-imitation {
+  display: flex;
+  column-gap: 20px;
 }
